@@ -1,0 +1,112 @@
+@font-face {
+font-family: "iA Writer Duospace";
+font-weight: normal;
+font-style: normal;
+src: url("./assets/iAWriterDuospace-Regular.eot") format("embedded-opentype"),
+  url("./assets/iAWriterDuospace-Regular.woff2") format("woff2"),
+  url("./assets/iAWriterDuospace-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "iA Writer Duospace";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./assets/iAWriterDuospace-Bold.eot") format("embedded-opentype"),
+    url("./assets/iAWriterDuospace-Bold.woff2") format("woff2"),
+    url("./assets/iAWriterDuospace-Bold.woff") format("woff");
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: 'iA Writer Duospace', sans-serif;
+  font-size: 32px;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+body {
+  margin: 2em 0;
+  padding: 0 1em;
+}
+
+nav {
+  max-width: 760px;
+  padding: 0 0 4em 0;
+  margin: 0 auto;
+}
+
+article {
+  max-width: 760px;
+  padding: 0 0 2em 0;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+img {
+  width: 100%
+}
+
+p {
+  padding-bottom: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #39F;
+}
+
+model-viewer {
+  width: 100%;
+  height: 50vh;
+  background-color: #DEDFDE;
+}
+
+button {
+    background-color: white;
+    background-repeat:no-repeat;
+    border: 4;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border-color: black;
+    color: black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 0.5rem;
+    position: absolute;
+}
+
+.lang {
+  display: block;
+  text-align: right;
+}
+
+.gallery-logo {
+  display: block;
+  height: 120px;
+  margin: 3em auto;
+}
+
+.arbutton {
+  top: 1.2rem;
+  right: 0.75rem;
+  color: #39F;
+}
+
+.a-frame-button {
+  top: 4.5rem;
+  right: 0.75rem;
+}
